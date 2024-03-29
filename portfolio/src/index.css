@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-text {
+  @apply flex text-white font-medium;
+}
+
+.navbar-text:hover,
+.navbar-text.selected {
+  @apply hover:text-primary-orange hover:cursor-pointer;
+}
+
+.navbar-text.selected {
+  @apply  text-primary-orange;
+}
