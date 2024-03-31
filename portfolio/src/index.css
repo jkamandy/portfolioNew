@@ -6,7 +6,29 @@
   @apply flex text-white font-medium;
 }
 
+.title-text-w {
+  @apply flex text-white font-bold text-9xl;
+}
+
+.title-text-o {
+  @apply flex text-primary-orange font-bold text-9xl;
+}
+
+.subheading-text {
+  @apply flex text-text-gray text-left text-xl ;
+}
+
+.social-icons {
+  @apply text-4xl text-text-gray mb-[2rem];
+}
+
+.social-icons:hover {
+  @apply hover:scale-125;
+}
+
+
 .navbar-text:hover,
+.social-icons:hover,
 .navbar-text.selected {
   @apply hover:text-primary-orange hover:cursor-pointer;
 }

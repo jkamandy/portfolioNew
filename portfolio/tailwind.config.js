@@ -10,7 +10,8 @@ export default {
         "background-dark": "#181919",
         "primary-orange": "#F0B645",
         "text-gray": "#747575",
-        "navbar-dark": "#222222"
+        "navbar-dark": "#222222",
+        "subheading-text": "#737474",
       },
       width: {
         'w-navbar': '28rem', // You can set any value you want

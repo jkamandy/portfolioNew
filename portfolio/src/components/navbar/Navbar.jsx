@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function Navbar() {
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedItem, setSelectedItem] = useState('ABOUT');
 
   const handleItemClick = (item) => {
     setSelectedItem(item);
