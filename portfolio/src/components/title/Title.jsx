@@ -4,7 +4,7 @@ function Title() {
  
 
   return (
-     <div className='flex flex-col mt-[17rem]'>
+     <div className='flex flex-col justify-end h-[75vh]'>
         <span className='title-text-w'>Hi,</span>
         <div className='flex gap-4'>
             <span className='title-text-w'>I'm</span>

@@ -14,6 +14,14 @@
   @apply flex text-primary-orange font-bold text-9xl;
 }
 
+.subtitle-text-w {
+  @apply flex text-white font-bold text-8xl;
+}
+
+.subtitle-text-o {
+  @apply flex text-primary-orange font-bold text-8xl;
+}
+
 .subheading-text {
   @apply flex text-text-gray text-left text-xl ;
 }
@@ -24,6 +32,10 @@
 
 .social-icons:hover {
   @apply hover:scale-125;
+}
+
+.subheading-container {
+  @apply flex gap-4 mt-12;
 }
 
 

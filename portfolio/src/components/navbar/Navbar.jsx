@@ -1,14 +1,15 @@
 import { useState } from 'react'
 
-function Navbar() {
+function Navbar( {handleSetScroll} ) {
   const [selectedItem, setSelectedItem] = useState('ABOUT');
 
   const handleItemClick = (item) => {
     setSelectedItem(item);
+    handleSetScroll(item);
   };
 
   return (
-     <div className='flex items-center justify-around h-14 w-[32rem] bg-navbar-dark rounded-2xl'>
+     <div className='flex items-center justify-around h-14 w-[32rem] bg-navbar-dark rounded-2xl fixed self-center ml-[10rem]'>
         <div
             className={`navbar-text ${selectedItem === 'ABOUT' ? 'selected' : ''}`}
             onClick={() => handleItemClick('ABOUT')}
