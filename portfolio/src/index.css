@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.navbar {
+  @apply flex items-center justify-around h-14 w-[32rem] bg-navbar-dark rounded-2xl fixed self-center ml-[10rem] z-10;
+}
+
 .navbar-text {
-  @apply flex text-white font-medium;
+  @apply flex text-text-gray font-medium;
 }
 
 .title-text-w {
@@ -26,8 +30,24 @@
   @apply flex text-text-gray text-left text-xl ;
 }
 
+.timeline-companyName {
+  @apply flex text-primary-orange font-semibold text-lg ;
+}
+
+.timeline-subtext {
+  @apply flex text-text-gray  ;
+}
+
+.timeline-subtext-u {
+  @apply flex text-text-gray underline ;
+}
+
 .social-icons {
   @apply text-4xl text-text-gray mb-[2rem];
+}
+
+.tech-used {
+  @apply text-4xl text-text-gray;
 }
 
 .social-icons:hover {
@@ -39,7 +59,11 @@
 }
 
 
-.navbar-text:hover,
+.navbar-text:hover {
+  @apply hover:text-light-gray hover:cursor-pointer;
+
+}
+
 .social-icons:hover,
 .navbar-text.selected {
   @apply hover:text-primary-orange hover:cursor-pointer;
@@ -47,4 +71,17 @@
 
 .navbar-text.selected {
   @apply  text-primary-orange;
+}
+
+.gradient-primary-orange {
+  @apply bg-gradient-to-r from-white to-primary-orange text-transparent bg-clip-text
+}
+
+.gradient-bg-dark {
+  @apply bg-gradient-to-r to-background-dark from-light-gray;
+}
+
+
+.gradient-primary-orange-rev {
+  @apply bg-gradient-to-r to-white from-primary-orange text-transparent bg-clip-text
 }

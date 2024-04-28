@@ -20,7 +20,6 @@ function HomePage() {
     if (selectedSection) {
       const section = document.getElementById(selectedSection);
       if (section) {
-        
         section.scrollIntoView({ behavior: 'smooth' });
       }
     }
@@ -29,8 +28,8 @@ function HomePage() {
   return (
      <div className='flex  w-screen pt-14 mx-28 justify-between'>
       <div className='flex flex-col gap-12'>
-        <div className='flex flex-col w-11/12 h-screen'>
-          <Navbar handleSetScroll={handleSetScroll}/>
+        <div id='HOME' className='flex flex-col w-11/12 h-screen'>
+          <Navbar items={['ABOUT', 'EXPERIENCES', 'PROJECTS', 'CONTACT']} handleSetScroll={handleSetScroll}/>
           <Title/>
         </div>
         <div id='ABOUT' className='flex flex-col w-11/12 h-screen'>
