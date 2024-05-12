@@ -10,6 +10,11 @@
   @apply flex text-text-gray font-medium;
 }
 
+.title-text-gradient {
+  @apply text-9xl md:text-9xl font-bold bg-gradient-to-r from-indigo-400 via-indigo-300 to-sky-400 text-transparent bg-clip-text bg-300% animate-gradient pb-2;
+  ;
+}
+
 .title-text-w {
   @apply flex text-white font-bold text-9xl;
 }
@@ -18,12 +23,16 @@
   @apply flex text-primary-orange font-bold text-9xl;
 }
 
-.subtitle-text-w {
+/* .subtitle-text-w {
   @apply flex text-white font-bold text-8xl;
+} */
+.blue-gradient {
+  @apply bg-gradient-to-r from-indigo-400 via-indigo-300 to-sky-400 text-transparent bg-clip-text bg-300% animate-gradient pb-1
 }
 
+.subtitle-text-w,
 .subtitle-text-o {
-  @apply flex text-primary-orange font-bold text-8xl;
+  @apply flex font-bold text-8xl  blue-gradient;
 }
 
 .subheading-text {
@@ -31,7 +40,7 @@
 }
 
 .timeline-companyName {
-  @apply flex text-primary-orange font-semibold text-lg ;
+  @apply flex blue-gradient font-bold text-lg ;
 }
 
 .timeline-subtext {
@@ -51,7 +60,7 @@
 }
 
 .social-icons:hover {
-  @apply hover:scale-125;
+  @apply hover:scale-125 hover:cursor-pointer;
 }
 
 .subheading-container {
@@ -64,13 +73,15 @@
 
 }
 
-.social-icons:hover,
+/* .social-icons:hover, */
 .navbar-text.selected {
-  @apply hover:text-primary-orange hover:cursor-pointer;
+  @apply blue-gradient hover:cursor-pointer;
 }
 
+
+
 .navbar-text.selected {
-  @apply  text-primary-orange;
+  @apply  blue-gradient font-bold;
 }
 
 .gradient-primary-orange {
@@ -83,5 +94,5 @@
 
 
 .gradient-primary-orange-rev {
-  @apply bg-gradient-to-r to-white from-primary-orange text-transparent bg-clip-text
+  @apply bg-gradient-to-r from-indigo-400 via-indigo-300 to-sky-400 text-transparent bg-clip-text bg-300% animate-gradient
 }

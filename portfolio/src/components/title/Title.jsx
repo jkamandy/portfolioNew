@@ -8,7 +8,7 @@ function Title() {
         <span className='title-text-w'>Hi,</span>
         <div className='flex gap-4'>
             <span className='title-text-w'>I'm</span>
-            <span className='title-text-o'>Yosuf Kamandy</span>
+            <span className='title-text-gradient animate-gradient'>Yosuf Kamandy</span>
         </div>
         <div className='flex w-9/12 '>
             <span className='subheading-text mt-[3rem]'>
