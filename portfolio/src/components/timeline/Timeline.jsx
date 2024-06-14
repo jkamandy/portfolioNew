@@ -14,7 +14,6 @@ import MoreInfoPopover from '../Popover/MoreInfoPopover';
 
 export default function BasicTimeline({ items }) {
   const [visibleItems, setVisibleItems] = useState(0);
-  const timelineRef = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

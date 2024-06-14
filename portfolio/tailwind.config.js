@@ -16,12 +16,20 @@ export default {
           '50%': { backgroundPosition: '100% 50%' },
           '100%': { backgroundPosition: '0% 50%' },
         },
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
       },
       backgroundSize: {
         '300%': '300%',
       },
       animation: {
         gradient: 'animatedgradient 10s ease infinite alternate',
+        fadeIn: 'fadeIn 1s ease-in-out 0.5s forwards',
+        fadeIn2: 'fadeIn 0.5s ease-in-out 0.7s forwards',
+        fadeIn3: 'fadeIn 0.5s ease-in-out 1s forwards',
+        fadeIn4: 'fadeIn 0.5s ease-in-out 1.3s forwards',
       },  
       colors: {
         "background-dark": "#181919",

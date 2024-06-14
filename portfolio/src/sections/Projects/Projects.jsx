@@ -40,7 +40,7 @@ function Projects() {
             <span className='subtitle-text-w'>My</span>
             <span className='subtitle-text-o'>Projects</span>
         </div>
-        <div className='flex h-[100vh] justify-center items-center'>
+        <div className='flex h-[90vh] justify-center items-center'>
             <div class="grid grid-cols-3 gap-x-11 cg- ml-[10rem] mt-[2rem]">
                 {projectsData.map((data, index) => (
                     <ProjectCard props={data}/>

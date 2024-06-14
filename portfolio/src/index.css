@@ -27,12 +27,12 @@
   @apply flex text-white font-bold text-8xl;
 } */
 .blue-gradient {
-  @apply bg-gradient-to-r from-indigo-400 via-indigo-300 to-sky-400 text-transparent bg-clip-text bg-300% animate-gradient pb-1
+  @apply bg-gradient-to-r from-indigo-400 via-indigo-300 to-sky-400 text-transparent bg-clip-text bg-300% animate-gradient 
 }
 
 .subtitle-text-w,
 .subtitle-text-o {
-  @apply flex font-bold text-8xl  blue-gradient;
+  @apply flex font-bold text-8xl  blue-gradient pb-1;
 }
 
 .subheading-text {
@@ -40,7 +40,7 @@
 }
 
 .timeline-companyName {
-  @apply flex blue-gradient font-bold text-lg ;
+  @apply flex blue-gradient font-bold text-lg pb-1;
 }
 
 .timeline-subtext {
@@ -96,3 +96,4 @@
 .gradient-primary-orange-rev {
   @apply bg-gradient-to-r from-indigo-400 via-indigo-300 to-sky-400 text-transparent bg-clip-text bg-300% animate-gradient
 }
+
