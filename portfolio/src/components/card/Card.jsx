@@ -23,11 +23,11 @@ export default function ProjectCards( {props} ) {
             )}
             </div>
             <br/>
-            <div className="flex w-[10rem] justify-center h-10 rounded-2xl border border-light-gray">
-                <Button>
-                <div className="text-md font-bold text-light-gray w-[10rem] ">
-                    CHECK IT OUT
-                </div>
+            <div className="flex  justify-center h-10 rounded-xl border border-light-gray">
+                <Button className="bg-transparent">
+                    <div className="text-md font-bold text-light-gray w-[17rem] ">
+                        CHECK IT OUT
+                    </div>
                 </Button>
             </div>
         </div>

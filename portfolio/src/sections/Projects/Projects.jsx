@@ -6,6 +6,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiSupabaseFill } from "react-icons/ri";
+import { IoHardwareChip } from "react-icons/io5";
 
 
 
@@ -27,10 +28,11 @@ function Projects() {
 
         },
         {
-            name: 'MyFitnessFriend',
-            type: 'MOBILE APP',
-            description: "A tool designed to keep track of your mental health and wellness",
-            link: ""
+            name: 'Voltmeter',
+            type: 'EXPLORATORY',
+            description: "Implementing hardware and software from scratch to read voltage values",
+            link: "",
+            techStack: [<IoHardwareChip/>]
         },
       ]
 

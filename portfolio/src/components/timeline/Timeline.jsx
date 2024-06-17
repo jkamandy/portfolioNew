@@ -11,6 +11,7 @@ import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from '@mui/lab/TimelineOppositeContent';
 import MoreInfoPopover from '../Popover/MoreInfoPopover';
+import zIndex from '@mui/material/styles/zIndex';
 
 export default function BasicTimeline({ items }) {
   const [visibleItems, setVisibleItems] = useState(0);
@@ -49,7 +50,8 @@ export default function BasicTimeline({ items }) {
     <Timeline
       sx={{
         transform: 'scale(1.2)',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        zIndex: '0'
       }}
     >
       {items.map((item, index) => (

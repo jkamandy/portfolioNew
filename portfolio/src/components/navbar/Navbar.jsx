@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import NavTab from '../tab/Tab';
 
 function Navbar( {items, handleSetScroll} ) {
   const [selectedItem, setSelectedItem] = useState('');
@@ -47,6 +48,7 @@ function Navbar( {items, handleSetScroll} ) {
           {item}
         </div>
       ))}
+      {/* <NavTab/> */}
      </div>
   )
 }

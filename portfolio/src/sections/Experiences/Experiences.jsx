@@ -13,7 +13,7 @@ function Experiences() {
     },
     {
         dateRange: 'November 2022 - November 2023',
-        companyName: 'Cabin',
+        companyName: 'Cabin Development',
         role: 'Front-End Software Engineer',
         description: "I have proficiently delivered high-quality, client-specific web pages through utilization of React framework, JavaScript, HTML, and CSS for both front-end and back-end development tasks. I've utilized a combination of creative and analytical thinking to develop comprehensive and scalable solutions for client-specific needs and requirements. I made sure to deliver consistent user experience across all devices, leading to increased engagement, reduced bounce rates, and improved customer satisfaction. I've collaborated with cross-functional teams to develop, test, and deploy web pages while maintaining project timelines and delivering exceptional customer satisfaction."
     },
@@ -21,13 +21,13 @@ function Experiences() {
         dateRange: 'November 2023 -  June 2024',
         companyName: 'Gap Year',
         role: 'Focusing on academics/self-development',
-        description: 'More Info'
+        description: "I have proficiently delivered high-quality, client-specific web pages through utilization of React framework, JavaScript, HTML, and CSS for both front-end and back-end development tasks. I've utilized a combination of creative and analytical thinking to develop comprehensive and scalable solutions for client-specific needs and requirements. I made sure to deliver consistent user experience across all devices, leading to increased engagement, reduced bounce rates, and improved customer satisfaction. I've collaborated with cross-functional teams to develop, test, and deploy web pages while maintaining project timelines and delivering exceptional customer satisfaction."
     },
     {
         dateRange: 'July 2024 - September 2024',
         companyName: 'Applied Medical',
         role: 'Software Engineering Intern',
-        description: 'More Info'
+        description: "I have proficiently delivered high-quality, client-specific web pages through utilization of React framework, JavaScript, HTML, and CSS for both front-end and back-end development tasks. I've utilized a combination of creative and analytical thinking to develop comprehensive and scalable solutions for client-specific needs and requirements. I made sure to deliver consistent user experience across all devices, leading to increased engagement, reduced bounce rates, and improved customer satisfaction. I've collaborated with cross-functional teams to develop, test, and deploy web pages while maintaining project timelines and delivering exceptional customer satisfaction."
     },
   ]
 

@@ -5,10 +5,10 @@ export default function MoreInfoPopover( {popupItems} ) {
   return (
     <Popover placement="right">
         <PopoverTrigger>
-            <Button disableRipple={true} className='text-xl blue-gradient font-bold hover:scale-105'>{popupItems.company}</Button>
+            <Button className='text-xl blue-gradient font-bold hover:scale-105 p-0'>{popupItems.company}</Button>
         </PopoverTrigger>
-        <PopoverContent>
-          <div className="flex bg-navbar-dark p-5 w-[33rem] rounded-3xl">
+        <PopoverContent className="flex bg-navbar-dark p-5 w-[33rem] rounded-3xl">
+          {/* <div className="flex bg-navbar-dark p-5 w-[33rem] rounded-3xl"> */}
             <div className="px-1 py-2">
               <div className="text-4xl font-bold text-light-gray">{popupItems.company}</div>
               <div className="text-lg blue-gradient font-medium">{popupItems.position}</div>
@@ -17,7 +17,7 @@ export default function MoreInfoPopover( {popupItems} ) {
                 {popupItems.roleDecription}
               </div>
             </div>
-          </div>
+          {/* </div> */}
         </PopoverContent>
     </Popover>
   );

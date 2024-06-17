@@ -7,7 +7,7 @@
 }
 
 .navbar-text {
-  @apply flex text-text-gray font-medium;
+  @apply flex text-text-gray font-medium z-20;
 }
 
 .title-text-gradient {
@@ -35,6 +35,10 @@
   @apply flex font-bold text-8xl  blue-gradient pb-1;
 }
 
+.contact-text {
+  @apply flex font-bold text-[150px] blue-gradient pb-1 leading-[115px];
+}
+
 .subheading-text {
   @apply flex text-text-gray text-left text-xl ;
 }
@@ -49,6 +53,22 @@
 
 .timeline-subtext-u {
   @apply flex text-text-gray underline ;
+}
+
+.skill {
+  @apply flex px-2.5 py-1 rounded-lg border-2 border-subheading-text;
+}
+
+.skillText {
+  @apply subheading-text font-bold;
+}
+
+.skill:hover {
+  @apply blue-gradient;
+}
+
+.skillText:hover {
+  @apply blue-gradient
 }
 
 .social-icons {
