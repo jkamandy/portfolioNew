@@ -56,7 +56,7 @@
 }
 
 .skill {
-  @apply flex px-2.5 py-1 rounded-lg border-2 border-subheading-text;
+  @apply flex px-2.5 py-1 rounded-lg border-2 border-subheading-text blue-gradient;
 }
 
 .skillText {
@@ -68,7 +68,7 @@
 }
 
 .skillText:hover {
-  @apply blue-gradient
+  @apply blue-gradient;
 }
 
 .social-icons {
@@ -80,7 +80,7 @@
 }
 
 .social-icons:hover {
-  @apply hover:scale-125 hover:cursor-pointer;
+  @apply hover:scale-125 hover:cursor-pointer ;
 }
 
 .subheading-container {

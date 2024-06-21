@@ -19,15 +19,15 @@ function Experiences() {
     },
     {
         dateRange: 'November 2023 -  June 2024',
-        companyName: 'Gap Year',
+        companyName: 'Academic Learning',
         role: 'Focusing on academics/self-development',
-        description: "I have proficiently delivered high-quality, client-specific web pages through utilization of React framework, JavaScript, HTML, and CSS for both front-end and back-end development tasks. I've utilized a combination of creative and analytical thinking to develop comprehensive and scalable solutions for client-specific needs and requirements. I made sure to deliver consistent user experience across all devices, leading to increased engagement, reduced bounce rates, and improved customer satisfaction. I've collaborated with cross-functional teams to develop, test, and deploy web pages while maintaining project timelines and delivering exceptional customer satisfaction."
+        description: "This time was taken up to better my skills in software development, focusing on course curriculum that aligns with my interests. The various courses I have taken up include, but are not limited to: Machine/Data Mining, Concepts in Programming Languages, Computer Networks, Next Gen Search Systems, Requirements Analysis & Engineering, and Embedded Software."
     },
     {
         dateRange: 'July 2024 - September 2024',
         companyName: 'Applied Medical',
         role: 'Software Engineering Intern',
-        description: "I have proficiently delivered high-quality, client-specific web pages through utilization of React framework, JavaScript, HTML, and CSS for both front-end and back-end development tasks. I've utilized a combination of creative and analytical thinking to develop comprehensive and scalable solutions for client-specific needs and requirements. I made sure to deliver consistent user experience across all devices, leading to increased engagement, reduced bounce rates, and improved customer satisfaction. I've collaborated with cross-functional teams to develop, test, and deploy web pages while maintaining project timelines and delivering exceptional customer satisfaction."
+        description: "I will be joining Applied Medical as an intern for the Summer of 2024 with the Corporate Applications Department, specializing in satisfying in-house technological and software needs/interests."
     },
   ]
 
