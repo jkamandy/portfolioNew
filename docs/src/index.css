@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  @apply flex items-center justify-around h-14 w-[32rem] bg-navbar-dark rounded-2xl fixed self-center ml-[10rem] z-10;
+}
+
+.navbar-text {
+  @apply flex text-text-gray font-medium z-20;
+}
+
+.title-text-gradient {
+  @apply text-9xl md:text-9xl font-bold bg-gradient-to-r from-indigo-400 via-indigo-300 to-sky-400 text-transparent bg-clip-text bg-300% animate-gradient pb-2;
+  ;
+}
+
+.title-text-w {
+  @apply flex text-white font-bold text-9xl;
+}
+
+.title-text-o {
+  @apply flex text-primary-orange font-bold text-9xl;
+}
+
+/* .subtitle-text-w {
+  @apply flex text-white font-bold text-8xl;
+} */
+.blue-gradient {
+  @apply bg-gradient-to-r from-indigo-400 via-indigo-300 to-sky-400 text-transparent bg-clip-text bg-300% animate-gradient 
+}
+
+.subtitle-text-w,
+.subtitle-text-o {
+  @apply flex font-bold text-8xl  blue-gradient pb-1;
+}
+
+.contact-text {
+  @apply flex font-bold text-[150px] blue-gradient pb-1 leading-[115px];
+}
+
+.subheading-text {
+  @apply flex text-text-gray text-left text-xl ;
+}
+
+.timeline-companyName {
+  @apply flex blue-gradient font-bold text-lg pb-1;
+}
+
+.timeline-subtext {
+  @apply flex text-text-gray  ;
+}
+
+.timeline-subtext-u {
+  @apply flex text-text-gray underline ;
+}
+
+.skill {
+  @apply flex px-2.5 py-1 rounded-lg border-2 border-subheading-text blue-gradient;
+}
+
+.skillText {
+  @apply subheading-text font-bold;
+}
+
+.skill:hover {
+  @apply blue-gradient;
+}
+
+.skillText:hover {
+  @apply blue-gradient;
+}
+
+.social-icons {
+  @apply text-4xl text-text-gray mb-[2rem];
+}
+
+.tech-used {
+  @apply text-4xl text-text-gray;
+}
+
+.social-icons:hover {
+  @apply hover:scale-125 hover:cursor-pointer ;
+}
+
+.subheading-container {
+  @apply flex gap-4 mt-12;
+}
+
+
+.navbar-text:hover {
+  @apply hover:text-light-gray hover:cursor-pointer;
+
+}
+
+/* .social-icons:hover, */
+.navbar-text.selected {
+  @apply blue-gradient hover:cursor-pointer;
+}
+
+
+
+.navbar-text.selected {
+  @apply  blue-gradient font-bold;
+}
+
+.gradient-primary-orange {
+  @apply bg-gradient-to-r from-white to-primary-orange text-transparent bg-clip-text
+}
+
+.gradient-bg-dark {
+  @apply bg-gradient-to-r to-background-dark from-light-gray;
+}
+
+
+.gradient-primary-orange-rev {
+  @apply bg-gradient-to-r from-indigo-400 via-indigo-300 to-sky-400 text-transparent bg-clip-text bg-300% animate-gradient
+}
+
