@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import profile from '/Users/josephkamandy/portfolioNew/portfolio/src/assets/profile_pic3.svg'
 import Skill from '../../components/skill/Skill'
 import SkillList from '../../components/skillList/SkillList'
+import profile from '/src/assets/profile_pic3.svg'
 
 function AboutMe() {
    const skillsLangs = ['html', 'css', 'javascript', 'typescript', 'python', 'c++', 'java', 'c']
